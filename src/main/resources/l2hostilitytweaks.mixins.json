@@ -1,0 +1,13 @@
+{
+    "required": true,
+    "minVersion": "0.8",
+    "package": "dev.kuroba.l2hostilitytweaks.mixin",
+    "compatibilityLevel": "JAVA_17",
+    "mixins": [
+        "MobTraitMixin",
+        "SectionDifficultyMixin"
+    ],
+    "injectors": {
+        "defaultRequire": 1
+    }
+}
